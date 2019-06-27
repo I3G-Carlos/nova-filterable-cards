@@ -6,7 +6,7 @@ mix.js('resources/js/card.js', 'dist/js')
         resolve: {
             symlinks: false,
             alias: {
-                '@': path.resolve(__dirname, 'vendor/laravel/nova/resources/js/'),
+                '@': path.resolve(__dirname, '../../laravel/nova/resources/js/'),
             },
         },
     })
